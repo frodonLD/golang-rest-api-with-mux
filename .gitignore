@@ -1,0 +1,13 @@
+
+# Test binary, build with `go test -c`
+*.test
+
+# Dependencies
+vendor/
+
+# Vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

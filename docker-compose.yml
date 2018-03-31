@@ -1,0 +1,14 @@
+version: "2.1"
+
+services:
+  api:
+    image: golang-rest-api-mux
+    build:
+      context: .
+    ports:
+      - "8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/_health || exit 1"]
+      interval: 10s
+      timeout: 30s
+      retries: 6
