@@ -5,16 +5,8 @@
 * [mux](https://github.com/gorilla/mux#examples) for routing
 * [urfarve cli](https://github.com/urfave/cli) as app builder
 
-## Starting
-
-Install dependencies:
+## Launch the app
 
 ```bash
-dep ensure
-```
-
-Launch the app
-
-```bash
-go run main.go
+docker-compose up
 ```
