@@ -1,4 +1,4 @@
-# Go Rest API Based on Mux router
+# Golang Rest API Based on Mux router
 
 [![Build Status](https://travis-ci.org/frodonLD/GoLangRESTAPIWithMux.svg?branch=master)](https://travis-ci.org/frodonLD/GoLangRESTAPIWithMux)
 
